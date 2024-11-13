@@ -1,0 +1,13 @@
+.btn {
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    color: white;
+
+    &:hover {
+        scale: 1.1;
+        cursor: pointer;
+    }
+}
