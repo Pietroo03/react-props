@@ -20,4 +20,24 @@
         padding: 1rem 0;
     }
 
+    .tags {
+        .html {
+            color: blue;
+        }
+
+        .css {
+            color: green;
+        }
+
+        .php {
+            color: red;
+        }
+
+        .js {
+            color: yellow;
+        }
+
+    }
+
+
 }
