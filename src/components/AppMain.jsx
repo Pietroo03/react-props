@@ -8,6 +8,7 @@ export default function AppMain() {
             <div className="container">
                 <div className="row">
                     {posts.map(post => <PostCard key={post.id} data={post} />)}
+
                 </div>
             </div>
         </main>

@@ -4,7 +4,7 @@ export default function PostCard({ data }) {
 
     return (
         <div className={style.card}>
-            <img src={data.image} alt="" />
+            <img src={data.image} alt="Foto" />
             <div className={style.textSection}>
                 <div className="title">
                     <strong>{data.title}</strong>
@@ -16,8 +16,12 @@ export default function PostCard({ data }) {
                     {data.tags}
                 </div>
                 <Button />
+
+
+                {data.published && < PostCard />}
             </div>
         </div>
+
     )
 
 }
