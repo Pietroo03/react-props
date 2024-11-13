@@ -2,7 +2,7 @@ import Button from '../Button/Button'
 import style from './PostCard.module.css'
 export default function PostCard({ data }) {
 
-    { data.published && < PostCard /> }
+    if (!data.published) return null
 
     return (
 
