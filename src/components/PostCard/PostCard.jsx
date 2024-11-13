@@ -2,7 +2,10 @@ import Button from '../Button/Button'
 import style from './PostCard.module.css'
 export default function PostCard({ data }) {
 
+    { data.published && < PostCard /> }
+
     return (
+
         <div className={style.card}>
             <img src={data.image} alt="Foto" />
             <div className={style.textSection}>
@@ -17,8 +20,6 @@ export default function PostCard({ data }) {
                 </div>
                 <Button />
 
-
-                {data.published && < PostCard />}
             </div>
         </div>
 
