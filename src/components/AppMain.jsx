@@ -6,7 +6,9 @@ export default function AppMain() {
 
         <main>
             <div className="container">
-                {posts.map(post => <PostCard key={post.id} data={post} />)}
+                <div className="row">
+                    {posts.map(post => <PostCard key={post.id} data={post} />)}
+                </div>
             </div>
         </main>
 

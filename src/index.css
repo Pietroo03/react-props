@@ -19,6 +19,13 @@ header {
   margin: auto;
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
 main {
 
   min-height: calc(100vh - 70px);
