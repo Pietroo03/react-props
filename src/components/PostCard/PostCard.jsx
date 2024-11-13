@@ -16,7 +16,7 @@ export default function PostCard({ data }) {
                     {data.content}
                 </div>
                 <div className="tags">
-                    <strong>Tags: </strong> {data.tags.map((tag, index) => <span key={index} className={style.tag}> {tag} </span>)}
+                    <strong>Tags: </strong> {data.tags.map((tag, index) => <span key={index} className={style[tag]}> {tag} </span>)}
                 </div>
                 <Button />
 
