@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem;
 
     .textSection {
         background-color: white;
-        width: 600px;
+        width: 400px;
         padding: 1rem;
     }
 
     img {
-        width: 600px;
+        width: 400px;
     }
 
     div {

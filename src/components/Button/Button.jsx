@@ -2,7 +2,7 @@ import style from './Button.module.css'
 export default function Button() {
 
     return (
-        <button className={style.btn}>Approfondisci Jack</button>
+        <button className={style.btn}>Approfondisci</button>
     )
 
 }
